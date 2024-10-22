@@ -94,7 +94,7 @@ def main():
         # User input for anomaly detection threshold
         while True:
             try:
-                threshold = float(input("Enter the distance threshold for anomaly detection: "))
+                threshold = 10.0
                 break  # Exit loop if conversion is successful
             except ValueError:
                 print("Invalid input. Please enter a numeric value for the threshold.")
